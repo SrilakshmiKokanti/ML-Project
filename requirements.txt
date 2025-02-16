@@ -4,3 +4,4 @@ seaborn
 matplotlib
 TensorFlow
 scikit-learn
+-e .

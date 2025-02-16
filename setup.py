@@ -12,9 +12,10 @@ def get_requirements(file_path:str) -> list[str]:
             requirements.remove('-e .')
     return requirements
 setup(
-    name = "ML-Project"
+    name = "ML-Project",
     version = "0.0.1",
     author = "Srilakshmi Kokanti",
     author_email = "its.sriluu@gmail.com",
     packages = find_packages(),
-    install_requires = get_requirements('requirements.txt')
+        install_requires = get_requirements('requirements.txt')
+    )
